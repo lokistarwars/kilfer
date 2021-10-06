@@ -1,0 +1,36 @@
+2021.09.08:13:10:16.055: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.09.08:13:10:16.055: main Cmd line: -pool ssl://eu1.ethermine.org:5555 -pool2 ssl://us1.ethermine.org:5555 -wal 0x6ff85749ffac2d3a36efa2bc916305433fa93731.azr9tefjykgmpj 
+2021.09.08:13:10:16.703: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.09.08:13:10:17.504: main No OpenCL platforms found
+2021.09.08:13:10:17.504: main Available GPUs for mining:
+2021.09.08:13:10:17.504: main GPU1: GeForce MX330 (pcie 2), CUDA cap. 6.1, 2 GB VRAM, 3 CUs
+2021.09.08:13:10:17.638: main NVML library initialized
+2021.09.08:13:10:17.678: main Nvidia driver version: 462.31
+2021.09.08:13:10:18.266: main Eth: the pool list contains 2 pools (2 from command-line)
+2021.09.08:13:10:18.266: main Eth: primary pool: ssl://eu1.ethermine.org:5555
+2021.09.08:13:10:18.266: main Starting GPU mining
+2021.09.08:13:10:18.416: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.09.08:13:10:18.562: wdog Starting watchdog thread
+2021.09.08:13:10:18.982: main Eth: Connecting to ethash pool ssl://eu1.ethermine.org:5555 (proto: EthProxy)
+2021.09.08:13:10:18.984: main GPU1: 50C
+2021.09.08:13:10:19.122: eths Eth: Connected to SSL ethash pool eu1.ethermine.org:5555 (172.65.207.106)
+2021.09.08:13:10:19.188: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.09.08:13:10:19.375: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x6ff85749ffac2d3a36efa2bc916305433fa93731.azr9tefjykgmpj"]}
+
+2021.09.08:13:10:19.508: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.09.08:13:10:19.508: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.09.08:13:10:19.641: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x30a9b2d271eedfd7bd14bd3af74d8da8ec7186fd96f7f896795ea2369d1f5a25","0x4d9a8aba11e11cb0b8edb58e5d1b319bc9f840cd1f0223ae34f6ae6bba9fbe72","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xc92b30"]}
+2021.09.08:13:10:19.641: eths Eth: New job #30a9b2d2 from ssl://eu1.ethermine.org:5555; diff: 4295MH
+2021.09.08:13:10:19.646: GPU1 GPU1: Starting up... (0)
+2021.09.08:13:10:19.646: GPU1 GPU1: Generating ethash light cache for epoch #439
+2021.09.08:13:10:19.671: unkn Quitting...
+2021.09.08:13:10:19.733: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x416b09f00ab936a0bfa137cabe4aec3a4e536c20212c5e1d1b44ce1dcb1fc917","0x4d9a8aba11e11cb0b8edb58e5d1b319bc9f840cd1f0223ae34f6ae6bba9fbe72","0x00000000ffff00000000ffff00000000ffff00000000ffff00000000ffff0000","0xc92b30"]}
+2021.09.08:13:10:19.733: eths Eth: New job #416b09f0 from ssl://eu1.ethermine.org:5555; diff: 4295MH
+2021.09.08:13:10:23.197: GPU1 Light cache generated in 3.5 s (20.0 MB/s)
+2021.09.08:13:10:23.864: GPU1 GPU1: Allocating DAG (4.45) GB; good for epoch up to #441
+2021.09.08:13:10:23.875: GPU1 CUDA error in CudaProgram.cu:388 : out of memory (2)
+2021.09.08:13:10:23.875: GPU1 GPU1: CUDA memory: 2.00 GB total, 1.62 GB free
+2021.09.08:13:10:23.875: GPU1 GPU1 initMiner error: out of memory
+2021.09.08:13:10:23.903: wdog Stopping watchdog thread
+2021.09.08:13:10:23.905: main Exit code: 0
