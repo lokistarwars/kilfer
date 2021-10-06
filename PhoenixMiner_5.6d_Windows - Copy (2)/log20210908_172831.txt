@@ -1,0 +1,36 @@
+2021.09.08:17:28:31.283: main Phoenix Miner 5.6d Windows/msvc - Release build
+2021.09.08:17:28:31.283: main Cmd line: -pool ethash.unmineable.com:3333 -wal 0x9E932B4b9B22fB71Afdb448D67b28fAb2E545Cf7.Rig1 -pass x 
+2021.09.08:17:28:31.942: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.09.08:17:28:32.070: main No OpenCL platforms found
+2021.09.08:17:28:32.070: main Available GPUs for mining:
+2021.09.08:17:28:32.070: main GPU1: GeForce MX330 (pcie 2), CUDA cap. 6.1, 2 GB VRAM, 3 CUs
+2021.09.08:17:28:32.080: main NVML library initialized
+2021.09.08:17:28:32.088: main Nvidia driver version: 462.31
+2021.09.08:17:28:32.336: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.09.08:17:28:32.336: main Eth: primary pool: ethash.unmineable.com:3333
+2021.09.08:17:28:32.337: main Starting GPU mining
+2021.09.08:17:28:32.347: hwmc GPU1: unable to get fan speed - Not Supported (3)
+2021.09.08:17:28:32.465: wdog Starting watchdog thread
+2021.09.08:17:28:32.468: main Eth: Connecting to ethash pool ethash.unmineable.com:3333 (proto: EthProxy)
+2021.09.08:17:28:32.471: main GPU1: 48C
+2021.09.08:17:28:32.630: eths Eth: Connected to ethash pool ethash.unmineable.com:3333 (128.199.85.196)
+2021.09.08:17:28:32.630: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x9E932B4b9B22fB71Afdb448D67b28fAb2E545Cf7.Rig1","x"]}
+
+2021.09.08:17:28:32.682: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.09.08:17:28:32.979: eths Eth: Received: {"id":1,"jsonrpc":"2.0","worker":"eth1.0","result":null,"error":{"code":-1,"message":"Double check your TRX address, it seems to be invalid!"}}
+2021.09.08:17:28:32.980: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.09.08:17:28:32.981: eths Eth: Connection closed by the pool
+2021.09.08:17:28:32.983: eths Eth: Reconnecting in 5 seconds...
+2021.09.08:17:28:37.998: unkn Eth: Connecting to ethash pool ethash.unmineable.com:3333 (proto: EthProxy)
+2021.09.08:17:28:38.051: eths Eth: Connected to ethash pool ethash.unmineable.com:3333 (128.199.85.196)
+2021.09.08:17:28:38.051: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0x9E932B4b9B22fB71Afdb448D67b28fAb2E545Cf7.Rig1","x"]}
+
+2021.09.08:17:28:38.258: eths Eth: Received: {"id":1,"jsonrpc":"2.0","worker":"eth1.0","result":null,"error":{"code":-1,"message":"Double check your TRX address, it seems to be invalid!"}}
+2021.09.08:17:28:38.258: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.09.08:17:28:38.262: eths Eth: Connection closed by the pool
+2021.09.08:17:28:38.265: eths Eth: Reconnecting in 5 seconds...
+2021.09.08:17:28:43.030: unkn Quitting...
+2021.09.08:17:28:43.198: wdog Stopping watchdog thread
+2021.09.08:17:28:43.658: main Exit code: 0
