@@ -9,6 +9,6 @@ setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100
 
 REM IMPORTANT: Replace the ETH address with your own ETH wallet address in the -wal option (Rig001 is the name of the rig)
-PhoenixMiner.exe -pool ssl://eu1.ethermine.org:5555 -pool2 ssl://us1.ethermine.org:5555 -wal 0x6ff85749ffac2d3a36efa2bc916305433fa93731.azr9tefjykgmpj
+PhoenixMiner.exe -pool ssl://eu1.ethermine.org:5555 -pool2 ssl://us1.ethermine.org:5555 -wal 0x6ff85749ffac2d3a36efa2bc916305433fa93731.56yzw41xdtldwh2
 pause
 
